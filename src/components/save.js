@@ -22,12 +22,12 @@ async function save(axios, planId) {
     country: "中国",
     state: "NORMAL",
     attendanceType: "",
-    address: "天安门广场",
+    address: "襄阳高新外国语学校",
     type: type,
-    longitude: "116.404267",
-    city: "北京市",
-    province: "北京市",
-    latitude: "39.910131",
+    longitude: "112.152006",
+    city: "襄阳市",
+    province: "湖北省",
+    latitude: "32.071256",
   };
   console.log("Type:", type);
   let { data: res } = await axios.request({
